@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+        function reqListener () {
+            var jsonObj = JSON.parse(this.responseText)
+            document.getElementById("demo").innerHTML = jsonObj.links;
+        }
+
+        var oReq = new XMLHttpRequest();
+        oReq.addEventListener("load", reqListener);
+        oReq.open("GET", "http://localhost:3000/posts/1",!0);
+        oReq.send();
+    </script>
+</head>
+<body>
+<div id="demo"></div>
+
+</body>
+</html>
