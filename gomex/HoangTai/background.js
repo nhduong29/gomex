@@ -138,7 +138,7 @@ function test(){
         if (xhttp.readyState == 4 && xhttp.status == 200) {
             var resJsonObj = JSON.parse(xhttp.responseText);
             if(resJsonObj.id == 1){
-                createNewWindow(resJsonObj.links);
+                createNewTab(resJsonObj.links);
             }
             if(resJsonObj.id == 2){
                 createNewWindow(resJsonObj.links);

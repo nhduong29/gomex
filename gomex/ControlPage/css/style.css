@@ -1,0 +1,242 @@
+/*!
+ * Duong Nguyen
+ * nhduong29@gmail.com
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media(min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar-default {
+    background: #9bcb43;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #000000;
+    background: #84ad38;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: whitesmoke;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+
+}
+
+.navbar-default .nav li a {
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: #FFF;
+    margin-left: 3px;
+}
+
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #27cef4;
+    background: none;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #000000;
+    background: #84ad38;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+#home{
+    background: url(../img/intro-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#about{
+    background: #ffffff;
+    color: #000000;
+}
+.line-bottom{
+    border-bottom: 3px solid #9bcb43;
+    display: block;
+    padding-bottom: 20px;
+}
+.header-section-border-container{
+    padding: 50px 0px 100px ;
+}
+.header-section-border{
+    border-bottom: 3px solid #9bcb43;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px 30px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: #000;
+}
+
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+    background: #ffffff;
+}
+
+.btn-green{
+    background: #9bcb43;
+    color: #ffffff;
+}
+.btn-green:hover, .btn-green:active, btn-green:focus{
+    background: #84ad38;
+    color: #000000;
+}
+
+.about-head{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.clear{
+    margin-top: 50px;
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
+
+.text-left-center{
+    text-align: center;
+}
+@media(min-width:992px) {
+   .text-left-center{
+       text-align: left;
+   }
+}
+.embed-responsive-16by9 {
+    position: static;
+    padding-bottom: 0;
+    margin-top: 100px;
+}
+.container-tour{
+    padding: 0 !important;
+}
+
+#tour {
+    padding-top: 40px;
+}
+
+label{
+font-weight: 400;
+}
