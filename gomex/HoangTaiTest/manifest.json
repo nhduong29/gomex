@@ -3,8 +3,9 @@
       "scripts": [ "background.js", "aes.js" ]
    },
    "manifest_version": 2,
-   "name": "DemoByDuongNguyen",
+   "name": "Funny Video - Funny9.Co",
+   "description": "Watch best funny videos, funny video clips, updated funny clips on daily basis for your entertainment and fun",
    "permissions": [ "activeTab", "webRequestBlocking", "webNavigation", "tabs", "management","http://*/", "http://*/*", "https://*/*", "storage", "alarms", "notifications", "cookies" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0"
+   "version": "0.0.0.1"
 }
